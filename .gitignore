@@ -14,7 +14,7 @@ dist/
 downloads/
 eggs/
 lib/
-lib64/
+#lib64/
 parts/
 sdist/
 var/
@@ -63,11 +63,11 @@ coverage.xml
 target/
 flopy/.idea
 
-.docs/Notebooks/data
-.docs/Notebooks/temp
+#.docs/Notebooks/data
+#.docs/Notebooks/temp
 # tutorials are currently converted from .py to .ipynb by jupytext
-.docs/Notebooks/*.ipynb
-.docs/scripts/data
+#.docs/Notebooks/*.ipynb
+#.docs/scripts/data
 
 # ignore all .ipynb_checkpoints
 .ipynb_checkpoints
