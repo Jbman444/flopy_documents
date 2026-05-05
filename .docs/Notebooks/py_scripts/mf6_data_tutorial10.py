@@ -48,7 +48,7 @@ print(f"flopy version: {flopy.__version__}")
 # +
 # create simulation
 sim = flopy.mf6.MFSimulation(
-    sim_name=test_ex_name, version="mf6", exe_name="mf6", sim_ws=sim_path
+    sim_name=test_ex_name, version="mf6", exe_name="linux/mf6", sim_ws=sim_path
 )
 
 tdis_rc = [(1.0, 1, 1.0), (10.0, 120, 1.0), (10.0, 120, 1.0), (10.0, 120, 1.0)]

@@ -42,7 +42,7 @@ print(f"flopy version: {flopy.__version__}")
 
 # Create a MODFLOW model object. Here, the MODFLOW model object is stored in a Python variable called {\tt model}, but this can be an arbitrary name. This object name is important as it will be used as a reference to the model in the remainder of the FloPy script. In addition, a {\tt modelname} is specified when the MODFLOW model object is created. This {\tt modelname} is used for all the files that are created by FloPy for this model.
 
-exe = "mf2005"
+exe = "linux/mf2005"
 ws = os.path.join("temp")
 model = fpm.Modflow(modelname="gwexample", exe_name=exe, model_ws=ws)
 

@@ -104,7 +104,7 @@ assert os.path.isdir(data_pth)
 # +
 # create simulation
 sim = flopy.mf6.MFSimulation(
-    sim_name=model_name, version="mf6", exe_name="mf6", sim_ws=workspace
+    sim_name=model_name, version="mf6", exe_name="linux/mf6", sim_ws=workspace
 )
 
 # create tdis package
