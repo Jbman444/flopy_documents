@@ -54,7 +54,7 @@ k = 1.0
 # Create a MODFLOW model and store it (in this case in the variable `ml`, but you can call it whatever you want). The modelname will be the name given to all MODFLOW files (input and output). The exe_name should be the full path to your MODFLOW executable. The version is either 'mf2k' for MODFLOW2000 or 'mf2005'for MODFLOW2005.
 
 ml = flopy.modflow.Modflow(
-    modelname=name, exe_name="mf2005", version="mf2005", model_ws=workspace
+    modelname=name, exe_name="linux/mf2005", version="mf2005", model_ws=workspace
 )
 
 # Define the discretization of the model. All layers are given equal thickness. The `bot` array is build from the `Hlay` values to indicate top and bottom of each layer, and `delrow` and `delcol` are computed from model size `L` and number of cells `N`. Once these are all computed, the Discretization file is built.
